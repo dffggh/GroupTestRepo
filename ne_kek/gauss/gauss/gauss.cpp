@@ -6,7 +6,8 @@ int n, i, j, k;
 double d, s;
 void gauss(int n)
 {
-	double **a=new double *[n];
+        vector <vector<int>> a;
+        //double **a=new double *[n];
 	for (i=0; i<=n; i++)
 		a[i]=new double [n];
 	double *b=new double [n];
